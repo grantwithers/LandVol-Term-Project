@@ -79,14 +79,36 @@
  <div class = "container">
 
      <div class="btn-group">
-         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Cities
-             <span class="caret"></span></button>
-         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-             <li></li>
-             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">New York</a></li>
-             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">San Francisco</a></li>
-             <li role="presentation" class="divider"></li>
-             <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+             <span data-bind="label">Cities</span>&nbsp;<span class="caret"></span>
+         </button>
+         <ul class="dropdown-menu" role="menu">
+             <li><a href="#">Nashville</a></li>
+             <li><a href="#">San Francisco</a></li>
+             <li><a href="#">New York</a></li>
+         </ul>
+     </div>
+
+     <div class="btn-group">
+         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+             <span data-bind="label">Capacity</span>&nbsp;<span class="caret"></span>
+         </button>
+         <ul class="dropdown-menu" role="menu">
+             <li><a href="#">1</a></li>
+             <li><a href="#">2</a></li>
+             <li><a href="#">3</a></li>
+             <li><a href = "#">4+</a></li>
+         </ul>
+     </div>
+
+     <div class="btn-group">
+         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+             <span data-bind="label">Price</span>&nbsp;<span class="caret"></span>
+         </button>
+         <ul class="dropdown-menu" role="menu">
+             <li><a href="#"><50</a></li>
+             <li><a href="#">50-100</a></li>
+             <li><a href="#">100+</a></li>
          </ul>
      </div>
 
