@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Rooms</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <div class="container topnav">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand topnav" href="#">Landvol</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Terms">Terms</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+
+<div id="masthead" style = "padding-top: 50px;">
+    <div class="container">
+
+        <div class="col-md-7">
+            <h1>Browse Rooms</h1>
+        </div>
+
+
+    </div>
+</div><!-- /cont -->
+
+<div class = "container">
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span data-bind="label">Cities</span>&nbsp;<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Nashville</a></li>
+            <li><a href="#">San Francisco</a></li>
+            <li><a href="#">New York</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span data-bind="label">Capacity</span>&nbsp;<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href = "#">4+</a></li>
+        </ul>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+            <span data-bind="label">Price</span>&nbsp;<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><50</a></li>
+            <li><a href="#">50-100</a></li>
+            <li><a href="#">100+</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<div class="container" style = "padding: 50px;">
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <div class="panel">
+                <div class="panel-body">
+                    <div class="row">
+                        <br>
+                        <div class="col-md-2 col-sm-3 text-center">
+                            <a class="story-img" href="#"><img src="img/Christina.jpg" style="width:100px;height:100px" class="img-circle"></a>
+                        </div>
+                        <div class="col-md-10 col-sm-9">
+                            <h3>Private Studio in Times Square</h3>
+                            <div class="row">
+                                <div class="col-xs-9">
+                                    <p>This cozy 400sqft studio is perfect for a weekend getaway, conveniently located between Times Square and the very hip 9th avenue (Hell's Kitchen). A comfy airbed and blankets/sheet set will be provided, as well as full use of amenities.</p>
+                                    <p class="lead"><button class="btn btn-default">Read More</button></p>
+                                    <p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+                                    <ul class="list-inline"><li><a href="#">1 Week Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 6 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 70 Shares</a></li></ul>
+                                </div>
+                                <div class="col-xs-3"></div>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <br>
+                        <div class="col-md-2 col-sm-3 text-center">
+                            <a class="story-img" href="#"><img src="img/Ted.jpg" style="width:100px;height:100px" class="img-circle"></a>
+                        </div>
+                        <div class="col-md-10 col-sm-9">
+                            <h3>Gorgeous 1BR w huge private terrace</h3>
+                            <div class="row">
+                                <div class="col-xs-9">
+                                    <p>Enjoy our apartment on the top floor of a new building in Bushwick/Bedford-Stuyvesant, minutes from the subway, decorated with original art, and dominated by a huge sun-drenched terrace.</p>
+                                    <p class="lead"><button class="btn btn-default">Read More</button></p>
+                                    <p class="pull-right"><span class="label label-default">keyword</span> <span class="label label-default">tag</span> <span class="label label-default">post</span></p>
+                                    <ul class="list-inline"><li><a href="#">1 Week Ago</a></li><li><a href="#"><i class="glyphicon glyphicon-comment"></i> 6 Comments</a></li><li><a href="#"><i class="glyphicon glyphicon-share"></i> 70 Shares</a></li></ul>
+                                </div>
+                                <div class="col-xs-3"></div>
+                            </div>
+                            <br><br>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div><!--/col-12-->
+    </div>
+</div>
+</body>
+</html>
